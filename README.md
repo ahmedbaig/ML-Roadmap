@@ -4,27 +4,33 @@ Planning for my machine learning side projects: a daily one-to-two-hour habit, a
 
 ## Projects
 
+The focus is **geospatial AI**.
+
 | Project | Role | Repo |
 |---|---|---|
-| Paper radar + audio digest | Main project | [paper-radar](https://github.com/ahmedbaig/paper-radar) |
-| Satellite change detection | Main project #2, after the course | [satellite-change](https://github.com/ahmedbaig/satellite-change) |
-| Autograd → Go deep learning library → inference server | Starter that grows | [go-autograd](https://github.com/ahmedbaig/go-autograd) |
-| Code model | Starter, during the transformer weeks | [code-model](https://github.com/ahmedbaig/code-model) |
-| Home lab anomaly platform | Later; log anomaly detector is phase 1 | [homelab-anomaly](https://github.com/ahmedbaig/homelab-anomaly) |
-| Notes search engine | Lives in memory-store (embeddings issue) | [memory-store](https://github.com/ahmedbaig/memory-store) |
+| Satellite change detection | **Main #1** | [satellite-change](https://github.com/ahmedbaig/satellite-change) |
+| Transit delay prediction | **Main #2** | [transit-delays](https://github.com/ahmedbaig/transit-delays) |
+| Population and crowds | Geo project, joins transit | [crowd-patterns](https://github.com/ahmedbaig/crowd-patterns) |
+| Geo platform: PostGIS, STAC, tiles, viewer | Shared infra for all geo projects | [geo-platform](https://github.com/ahmedbaig/geo-platform) |
+| Rooftop / building segmenter | Starter (CNN from scratch) | [rooftop-segmenter](https://github.com/ahmedbaig/rooftop-segmenter) |
+| Paper radar + audio digest | Supporting, focused on geo-AI papers | [paper-radar](https://github.com/ahmedbaig/paper-radar) |
+| Autograd → Go deep learning library | Course starter | [go-autograd](https://github.com/ahmedbaig/go-autograd) |
+| Code model | Course starter | [code-model](https://github.com/ahmedbaig/code-model) |
+| Home lab anomaly platform | Later | [homelab-anomaly](https://github.com/ahmedbaig/homelab-anomaly) |
+| Notes search engine | Lives in memory-store | [memory-store](https://github.com/ahmedbaig/memory-store) |
 
-Parked (issues here): drone survey pipeline, transit delay prediction, person detector.
+Parked: drone survey pipeline (no drone).
 
 ## Settled
 
-- **Course:** 12 weeks, Karpathy's series through transformers, then fast.ai, then consolidation.
+- **Course:** 12 weeks, Karpathy's series through transformers, then fast.ai, a geospatial-basics block, then consolidation.
 - **Profile:** GitHub profile README, new pinned repos, LinkedIn rewrite, one post per finished project.
 - **Reading:** one newsletter and one paper feed, an hour a week (the paper radar takes over the feed).
 
 ## Decisions (5 Oct 2026)
 
-- Main project: paper radar with the audio digest.
+- Focus: geospatial AI. Main projects: satellite change detection, then transit delays. Paper radar narrows to geo-AI papers and supports the track.
 - Hours: 6 to 8 a week.
-- Starters with the course: autograd in Go, code model, notes search. Log anomaly detector after the course; person detector and inference server skipped for now.
+- Starters with the course: autograd in Go, code model, notes search, rooftop segmenter (replaces the person detector). Log anomaly detector after the course; inference server skipped for now.
 - Audio: a 5 to 10 minute daily digest of the top papers, plus an optional weekly deep dive on one paper.
 - Repos stay private until there is something to show.
