@@ -33,4 +33,4 @@ Parked: drone survey pipeline (no drone).
 - Hours: 6 to 8 a week.
 - Starters with the course: autograd in Go, code model, notes search, rooftop segmenter (replaces the person detector). Log anomaly detector after the course; inference server skipped for now.
 - Audio: a 5 to 10 minute daily digest of the top papers, plus an optional weekly deep dive on one paper.
-- Repos stay private until there is something to show.
+- All project repos are public from the start (5 Oct 2026); secrets stay in the private homelab-secrets repo.
